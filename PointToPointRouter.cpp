@@ -17,7 +17,7 @@ public:
 private:
     const StreetMap* m_ptrToSMap;
     bool isSameCoord (const GeoCoord& start, const GeoCoord& end) const;
-    bool isCoordExist (const GeoCoord& coord) const;//不知道如何implement
+    bool isCoordExist (const GeoCoord& coord) const;
     double NumF(const GeoCoord& current, const GeoCoord& start , const GeoCoord& end) const;
     struct Location{
         Location* m_parent;
